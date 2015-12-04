@@ -1,6 +1,6 @@
 # AWS Playbook - FIRSTBORN ACCOUNT
 
-
+------------------
 EC2 Instance:
 
 ```
@@ -49,3 +49,4 @@ ElastiCache:
 ```
 
 ```
+------------------
