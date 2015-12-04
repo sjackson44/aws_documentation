@@ -1,14 +1,14 @@
 # AWS Playbook - FIRSTBORN ACCOUNT
 
-------------------
-EC2 Instance:
+
+###EC2 Instance:
 
 ```
 
 ```
 ------------------
 
-RDS Instance:
+###RDS Instance:
 
 ```
 
@@ -16,37 +16,36 @@ RDS Instance:
 
 ------------------
 
-S3 Bucket:
+###S3 Bucket:
 
 ```
 
 ```
 ------------------
 
-IAM User:
+###IAM User:
 
 ```
 
 ```
 ------------------
 
-ELB:
+###ELB:
 
 ```
 
 ```
 ------------------
 
-CloudFront:
+###CloudFront:
 
 ```
 
 ```
 ------------------
 
-ElastiCache:
+###ElastiCache:
 
 ```
 
 ```
-------------------
