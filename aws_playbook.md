@@ -1,4 +1,4 @@
-# AWS Playbook - FIRSTBORN ACCOUNT
+# AWS Playbook - FIRSTBORN
 
 
 ###EC2 Instance:
