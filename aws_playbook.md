@@ -3,12 +3,13 @@
 
 ###EC2 Instance:
 	* Click on launch instance.
-	* Choose an Amazon Machin Image.
+	* Choose an Amazon Machine Image.
 	* Choose an instance type.
 	* Configure instance details.
 	* Add Storage.
 	* Tag the Instance (ie key: Project, value: project_name).
 	* Configure Security Group (make a new one or select an existing one).
+	* Upload a key pair, or make a new one.
 	* Review and launch.
 
 
