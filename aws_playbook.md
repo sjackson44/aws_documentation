@@ -14,7 +14,6 @@
 			-- Click on the 'Import Key Pair' button and select a key pair name, generate an ssh pub key on your local machine, and then copy/paste that into the 'Public key contents' box in the bottom.
 		2. To make a key pair click where it says 'Choose an existing key pair' and select 'Create a new key pair', type in a name and click 'Download Key Pair' which will download a .pem file with a ssh private key you can use to access your EC2 instance remotely.  
 	* Review and launch.
-	* After the instance 
 
 
 ###RDS Instance:
