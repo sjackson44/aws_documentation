@@ -73,7 +73,7 @@
 		- Healthy Threshold: 10?
 	* Add EC2 Instances
 	* Add Tags (ie format:  Key = Project, Value = *project_name )
-	* Review and Launch ELB instance
+	* Review and Launch ELB instance, click 'Create' when you are finished.
 
 
 
