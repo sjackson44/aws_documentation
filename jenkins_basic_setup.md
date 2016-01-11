@@ -1,5 +1,10 @@
 #Jenkins Playbook - FIRSTBORN
 
+(If you have an user data script)
+#
+
+
+(If you have to install it on the server manually) 
 #Install Java and Git on your Jenkins Server
 
 * Make sure you have Java7 or Java8(preferable) installed on your local machine.
@@ -8,6 +13,8 @@
 		- Red Hat Distros - "sudo yum install java"
 		- Ubuntu (if yum is not installed) - "sudo apt-get install default-jdk"
 * Make sure git installed on your Jenkins Server as well, if it is not already.
+------------------------------
+
 
 #Setup Basic Login Credentials
 
