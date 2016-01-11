@@ -64,7 +64,7 @@
 		- Give the load balancer a name
 		- Firstborn already has a default VPC so leave that setting alone.
 		- Click 'Add' and click on 'HTTPS (Secure HTTP)'.
-	* Assign the appropriate security groups to the load balancer (Since we usually track our ELBs using Pingdom, Pingdom1 and Pingdom2 should be assigned as well, PingdomA and PingdomB should NOT be assigned as they were specific to an HBO project)
+	* Assign the appropriate security groups to the load balancer (Since we usually track our ELBs using Pingdom, load balancers Pingdom1 and Pingdom2 should be assigned as well, PingdomA and PingdomB should NOT be assigned as they were specific to an HBO project)
 	* Select an SSL certificate to assign to the load balancer you can either upload a new one or choose an existing one (our existing default SSL cert is firstborn.wildcard)
 	* Configure Health Check to these settings (unless custom settings are needed)
 		- Response Timeout: 5 seconds
