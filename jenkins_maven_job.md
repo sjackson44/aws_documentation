@@ -20,6 +20,7 @@
 	* Click 'This build is parameterized' and select 'JDK Parameter'
 	* Click on the 'Git' button (if this is not there you did not install the GIT Client plugin or you did and need to restart jenkins) Enter the "Repository URL" (We are using the ssh version of it which can be found when you click 'Clone' on the Git repo you want to build with i.e. ssh://git@git.firstborn.com:7999/~user.name/jenkins-test.git)
 		- Click on the "Credentials" button and select your SSH key, if does not exist click the "Add" button next to the key and make one.
+		- In 'Branches to build' select the branch you want to pull from
 	* Under the 'Build' section make sure to point towards the pom.xml from the root of the git repo you have pulled in. / is implied so you do not need to write it in (ie dev/example-to-pom/pom.xml)
 	* Click "Save"
 
