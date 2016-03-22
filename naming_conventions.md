@@ -11,9 +11,9 @@
 
 ##Stash (Bit Bucket Server)
 ```
-	*Project bucket names should be the name of the client (company) with the first letter of each major word capitalized, and appropriate spaces used (ie. Cycle for Survival, ie. Dentsu)
+	*Project bucket names should be the name of the client (company) with the first letter of each major word capitalized, and appropriate spaces used (ie. Cycle for Survival, ie. Company)
 	*Repo level names should follow similar protocol to project bucket names, with two additions.
 		- The anme of the project bucket should be added to the beginning of the repo name.
 		- The year should be added at the end of the repo name
-		- (ie. Dew All Star Game 2016)
+		- (ie. Example Project 2016)
 ```

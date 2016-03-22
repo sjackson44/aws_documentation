@@ -45,12 +45,5 @@
 	- Additionally click on the "Install automatically" check box.
 	- Click "Save" or "Apply" 
 
-#Configure Project for Build Testing
 
-* Click on the name of your project, found on your home screen, this will take you into your project folder.
-* Click on the "Configure" button on the left.
-	- Give the project a name if it does not have one and a description if you want.
-	- Click on the 'Git' button (if this is not there you did not install the GIT Client plugin or you did and need to restart jenkins) Enter the "Repository URL" (We are using the ssh version of it which can be found when you click 'Clone' on the Git repo you want to build with i.e. ssh://git@git.firstborn.com:7999/~user.name/jenkins-test.git)
-	- Click on the "Credentials" button and select your SSH key, if does not exist click the "Add" button next to the key and make one.
-	- Click "Save"
 	
