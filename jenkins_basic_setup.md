@@ -25,6 +25,7 @@
 * Click "Save"
 
 #Private SSH Key
+<<<<<<< HEAD
 * Add your Jenkins pub key to your git repo (~/.ssh/id_rsa.pub not ~/.ssh/id_rsa) (go to your git repo through the client, on Stash once you get to the repo, click on settings on the left and then click on 'add access key' copy the jenkins server pub key here)
 * Create a credential in credentials to allow Jenkins to pass it's private key (~/.ssh/id_rsa)
 	- Go to the homepage click on 'Credentials' click on 'Global credentials', and on the left click 'Add Credentials'.
@@ -36,20 +37,10 @@
 
 
 [1]: https://help.github.com/articles/generating-an-ssh-key/ "How to generate SSH Keys"
-
-#Install Appropriate GIT plugins
-
-* Go to "Manage Jenkins" --> "Manage Plugins" 
-	- Inside manage plugins use the Filter bar to look for two plugins you need to install "GIT client plugin" and "GIT plugin"
-	- Click the check box for both and then click the "Download now and install after restart" button
-
-#Configure GIT plugins
-
-* Go to "Configure System" by going from Home --> Manage Jenkins --> Configure System
-	- Scroll down in Configure System until you see the Git section
-	- Add the path where git is located on your Jenkins Server in the "Path to Git executable" section. (Usually "/usr/bin/git" but if unsure type 'which git' in your local machines terminal)
-	- Additionally click on the "Install automatically" check box.
-	- Click "Save" or "Apply" 
-
-
+=======
+* Use your clone ssh url from git repo.
+* Add your Git repo's SSH Private key (~/.ssh/id_rsa not ~/.ssh/id_rsa.pub) to the Credentials (key can be found on the Git repo service you are using ie Github, BitBucket Server, etc)
+	- Set the scope and user name.
+	- In Credentials click 'Enter directly' and make sure SSH id_rsa private key is inserted and any passphrase that you have is also written in to the passphrase section.
+	- Click "Save".
 	
