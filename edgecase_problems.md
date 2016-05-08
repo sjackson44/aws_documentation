@@ -1,7 +1,3 @@
-#Pingdom
-
-Firstborn uses Pingdom to track the various domains it has to make sure that they are constantly up and running on the internet.
-
 ##Edge Case Scenarios
 
 ###Jenkins Servers

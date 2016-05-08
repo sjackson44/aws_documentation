@@ -25,7 +25,6 @@
 * Click "Save"
 
 #Private SSH Key
-<<<<<<< HEAD
 * Add your Jenkins pub key to your git repo (~/.ssh/id_rsa.pub not ~/.ssh/id_rsa) (go to your git repo through the client, on Stash once you get to the repo, click on settings on the left and then click on 'add access key' copy the jenkins server pub key here)
 * Create a credential in credentials to allow Jenkins to pass it's private key (~/.ssh/id_rsa)
 	- Go to the homepage click on 'Credentials' click on 'Global credentials', and on the left click 'Add Credentials'.

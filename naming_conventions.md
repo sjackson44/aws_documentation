@@ -9,7 +9,7 @@
 		Project		  project (lowercased one word name of client company)
 ```
 
-##Stash (Bit Bucket Server)
+##Git Server (Bitbucket or Github)
 ```
 	*Project bucket names should be the name of the client (company) with the first letter of each major word capitalized, and appropriate spaces used (ie. Cycle for Survival, ie. Company)
 	*Repo level names should follow similar protocol to project bucket names, with two additions.
