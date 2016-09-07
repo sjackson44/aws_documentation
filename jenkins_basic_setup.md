@@ -1,4 +1,4 @@
-#Jenkins Playbook - FIRSTBORN
+#Jenkins Playbook
 
 (If you have an user data script)
 #
